@@ -1,0 +1,21 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+#python 
+*.py[cod]
+__pycache__
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+#visual Studio Code
+.vscode
+.devcontainer
